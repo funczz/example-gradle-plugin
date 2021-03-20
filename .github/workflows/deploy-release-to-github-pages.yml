@@ -26,7 +26,7 @@ jobs:
           source1=./build/mvn-repos/stable
           mkdir $dist_dir
           for s in $source0 $source1; do
-            if test -e $s; then cp -rf $s/* $dist_dir/.; fi
+            if test -e $s; then cp -rf $s/com $dist_dir/com; fi
           done
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3

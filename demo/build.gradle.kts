@@ -4,7 +4,7 @@ import com.github.funczz.gradle.plugin.example.example
  * plugins
  */
 plugins {
-    id("com.github.funczz.example-gradle-plugin")
+    id("example-gradle-plugin")
 }
 
 example {

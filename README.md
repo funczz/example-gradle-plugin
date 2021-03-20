@@ -16,7 +16,7 @@ buildscript {
         classpath("com.github.funczz:example-gradle-plugin:<VERSION>")
     }
 }
-apply(plugin = "com.github.funczz.example-gradle-plugin")
+apply(plugin = "example-gradle-plugin")
 ```
 
 How to use

@@ -119,7 +119,7 @@ allprojects {
 gradlePlugin {
     // Define the plugin
     val exampleGradlePlugin by plugins.creating {
-        id = "com.github.funczz.example-gradle-plugin"
+        id = "example-gradle-plugin"
         implementationClass = "com.github.funczz.gradle.plugin.example.ExampleGradlePlugin"
     }
 }
