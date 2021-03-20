@@ -1,0 +1,2 @@
+example-gradle-plugin
+=====================
