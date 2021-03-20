@@ -29,7 +29,7 @@ class ExampleGradlePluginFunctionalTest : StringSpec() {
 
     private val kotlinPluginsBlock = """
         plugins {
-            id("com.github.funczz.gradle.plugin.example-gradle-plugin")
+            id("com.github.funczz.example-gradle-plugin")
         }
         """.trimIndent()
 

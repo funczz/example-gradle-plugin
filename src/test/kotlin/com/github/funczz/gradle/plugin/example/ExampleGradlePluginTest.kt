@@ -14,7 +14,7 @@ class ExampleGradlePluginTest : StringSpec() {
         "plugin registers task" {
             // Create a test project and apply the plugin
             val project = ProjectBuilder.builder().build()
-            project.plugins.apply("com.github.funczz.gradle.plugin.example-gradle-plugin")
+            project.plugins.apply("com.github.funczz.example-gradle-plugin")
 
             // Verify the result
             project.tasks.findByName("example").toString() shouldBe "task ':example'"
