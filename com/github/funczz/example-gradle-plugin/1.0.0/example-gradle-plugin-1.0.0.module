@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.funczz",
+    "module": "example-gradle-plugin",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.3",
+      "buildId": "gj7yof5xh5aj3evspaqhyeppkq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "example-gradle-plugin-1.0.0.jar",
+          "url": "example-gradle-plugin-1.0.0.jar",
+          "size": 9253,
+          "sha512": "f2bb1f4b580a691e754934aefe31c92a7b3b7d34f3d7626204cab8b15a044ee014462e9543a2da3ee23d6e13d3c8614820b0447ce05e17f9292c31e0ecdefe84",
+          "sha256": "16e45ca71cebd0a85a5bfad9fc09a780197f722e73867ce5cc5224407dfddc4a",
+          "sha1": "503daf4389b4f98713d009053829e8c60bba1890",
+          "md5": "2cf793c38bf9400df77014fd61d3bc10"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "example-gradle-plugin-1.0.0.jar",
+          "url": "example-gradle-plugin-1.0.0.jar",
+          "size": 9253,
+          "sha512": "f2bb1f4b580a691e754934aefe31c92a7b3b7d34f3d7626204cab8b15a044ee014462e9543a2da3ee23d6e13d3c8614820b0447ce05e17f9292c31e0ecdefe84",
+          "sha256": "16e45ca71cebd0a85a5bfad9fc09a780197f722e73867ce5cc5224407dfddc4a",
+          "sha1": "503daf4389b4f98713d009053829e8c60bba1890",
+          "md5": "2cf793c38bf9400df77014fd61d3bc10"
+        }
+      ]
+    }
+  ]
+}
